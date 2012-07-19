@@ -1,3 +1,5 @@
+#define	kQCPlugIn_Category [NSArray arrayWithObjects:@"v002", @"v002 Blurs", nil]
+
 #ifdef __OBJC__
 	#import <Quartz/Quartz.h>
 #endif

@@ -45,7 +45,8 @@ static NSArray* fontArray;
 
 + (NSDictionary*) attributes
 {
-	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey, kQCPlugIn_Description, QCPlugInAttributeDescriptionKey, nil];
+	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey, kQCPlugIn_Description, QCPlugInAttributeDescriptionKey,
+            kQCPlugIn_Category, @"categories", nil];
 }
 
 + (NSDictionary*) attributesForPropertyPortWithKey:(NSString*)key
